@@ -1,0 +1,227 @@
+.nav_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-image: url(/images/h.avif);
+    
+    
+}
+
+.container_image {
+    background: linear-gradient(to left, rgb(253, 249, 249), white);
+    background-image: url(obg.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+    gap: 50px;
+}
+label{
+    color: white;
+}
+
+.logo {
+    box-shadow: 0 0 15px white,0 0 15px white;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.intro-text {
+    max-width: 600px;
+}
+
+.role {
+    font-size: 50px;
+    text-shadow: 0 0 10px white;
+}
+
+.intro-desc {
+    font-size: 18px;
+    color: white;
+    margin: 30px;
+}
+.logo{
+    box-shadow: 0 0 15px white, 0 0 30px white;
+}
+/* Section Titles */
+.head, .project {
+    text-align: center;
+    margin: 40px 0;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0 15px white;
+}
+
+/* About Section */
+.long {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.html, .css, .js {
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white, 0 0 15px white;
+    width: fit-content;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.html:hover, .css:hover, .js:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px white;
+}
+
+.htmlintro, .cssintro, .jsintro {
+    width: 250px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+}
+
+/* Contact Icons */
+.co {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.emojo {
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.emojo:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px white;
+}
+
+/* Projects */
+.projectcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url(sbg.jpg);
+    background-size: cover;
+    width: 700px;
+    margin: auto;
+    transition: 1s;
+}
+
+.projectcontainer:hover {
+    box-shadow: 0 0 15px white;
+    transform: scale(1.05);
+}
+
+.intro {
+    width: 90%;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white; 
+}
+
+/* Contact Form */
+fieldset {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    border: 10px solid white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid white;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.divider {
+    height: 5px;
+    background-color: white;
+    border: none;
+    margin: 40px 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+        background-color: #091218;
+        padding: 15px;
+    }
+
+    .container_image {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projectcontainer {
+        width: 90%;
+    }
+}
+
+.nimage{
+    width: 100%;
+    padding: 20px;
+    
+}
+.dimage{
+    width: 100%;
+    padding: 20px;
+}
+body{
+    background-color: yellow;
+}
+.heroblur{
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border: 2px solid white;
+    box-shadow: 0 0 15px white, 0 0 15px white;
+    margin: 10px 20px ;
+    animation: hari;
+    animation-duration: 2s;
+}
+@keyframes hari{
+    from{
+        transform: translatey(-800px);
+    }
+}
