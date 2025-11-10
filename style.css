@@ -4,7 +4,7 @@
     justify-content: center;
 }
 body{
-    background-image: url(/images/h.avif);
+    background-image: url(h.avif);
     
     
 }
@@ -224,4 +224,5 @@ body{
     from{
         transform: translatey(-800px);
     }
+
 }
